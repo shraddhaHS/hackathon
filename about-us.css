@@ -1,0 +1,212 @@
+.main {
+    background-image: url(petr-urbanek-eP9pqF1WTlo-unsplash.jpg);
+    background-blend-mode: luminosity;
+background-image: linear-gradient(from top to bottom, opacity);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    color: white;
+backface-visibility: hidden;
+    
+}
+
+.title-h1 {
+    letter-spacing: .004em;
+    text-transform: uppercase;
+    font-family: 'Plak',sans-serif;
+    font-size: 3rem;
+    line-height: 1.12;
+}
+.title {
+    text-align:center ;
+    margin-bottom: .25em;
+
+}
+
+.section-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    z-index: 50;
+    vertical-align: middle;
+    margin: 130px 0 100px;
+    min-width: 0;
+
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+   
+    box-sizing: border-box;
+}
+.droid-description {
+  
+        margin-top: -.4em;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Droid Serif',sans-serif;
+        overflow-wrap: break-word;
+        line-height: 1.4375;
+        
+       
+    }
+ @keyframes opac {
+     from {
+     opacity: 0;
+    transform: translateY(-100px);
+
+     }
+     to {
+    opacity: 1;
+    transform: translateY(0);
+     }
+ }
+    
+ h1 {
+     animation: opac 1.2s;
+     animation-timing-function: ease-out;
+     animation-delay: 0.2s;
+    
+     
+     
+ }
+ div {
+     display: block;
+ }
+
+   .droid-description {
+    animation: opac 1.6s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    padding-top: 10px;
+   }  
+ 
+.gc{
+    max-width: 830px;
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 1px;
+    padding: 0 14px;
+    position: relative;
+    
+    box-sizing: border-box;
+   
+    background-clip: content-box;
+}
+.grid {
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.grid {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.tm .box {
+    -webkit-box-flex: 1;
+    
+    flex: 1 0 33.83333%;
+    max-width: calc(50% - 10px);
+    margin-right: 10px;
+    display: block;
+}
+
+.grid .gc {
+    float: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+html, body, div, span, h1,  p, blockquote, pre, a,em, img,center, ol, ul, li,  footer, header, menu, nav, output, ruby, section, time, mark, audio, video {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#team .block-name {
+    line-height: 1.09091;
+    font-size: 1.75rem;
+    margin-bottom: .6em;
+
+}
+
+ .block-name {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+ 
+
+ 
+ 
+.tm .info {
+    margin-top: -30px;
+    padding: 0 16px;
+    
+}
+.tm .info {
+    position: relative;
+    margin-top: -38px;
+    padding: 0 20px;
+    color: #fff;
+}
+.tm .name {
+    padding: 4px 8px;
+    font-size: 30px;
+    font-size: 1.875rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    display: inline-block;
+}
+.tm .position {
+    margin-top: -8px;
+    padding: 6px 8px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1em;
+    letter-spacing: .04em;
+    font-family: 'Plak',sans-serif;
+    display: inline-block;
+}
+.tm .email {
+    margin-top: -6px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-size: .875rem;
+    display: inline-block;
+}
+.tm .flex {
+  
+    max-width: 980px;
+}
+.flex {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-column-gap: 3em;
+    grid-row-gap: 1em;
+    padding-left: 24px;
+}
+.tm {
+    margin-left: 24px;  }
+
+  
